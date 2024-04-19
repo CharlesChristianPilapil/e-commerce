@@ -51,3 +51,27 @@ table th {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 768px) {
+  .search {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  .carousel {
+    height: 700px;
+    overflow-y: hidden;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    top: 0;
+    padding: 0 2rem;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
